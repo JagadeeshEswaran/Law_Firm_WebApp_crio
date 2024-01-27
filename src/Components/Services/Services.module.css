@@ -1,0 +1,8 @@
+.services_main_container {
+	border: 1px dotted red;
+	height: 125vh;
+}
+
+.services_main_section {
+	height: 100%;
+}

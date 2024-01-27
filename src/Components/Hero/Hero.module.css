@@ -1,0 +1,4 @@
+.hero_main_container {
+	border: 1px dotted var(--color-primary);
+	height: 81.5vh;
+}

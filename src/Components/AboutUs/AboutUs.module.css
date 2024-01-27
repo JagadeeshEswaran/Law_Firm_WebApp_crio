@@ -1,0 +1,19 @@
+.About_main_container {
+	border: 1px dotted green;
+	height: 120vh;
+}
+
+.aboutus_main_section {
+	border: 1px solid white;
+	height: 100%;
+}
+
+.whatwedo_container {
+	border: 1px dotted yellow;
+	height: 35%;
+}
+
+.whoweare_container {
+	border: 1px dotted blue;
+	height: 65%;
+}

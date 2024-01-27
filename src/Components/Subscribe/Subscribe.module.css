@@ -1,0 +1,16 @@
+.subscribe_main_container {
+	border: 1px dotted lawngreen;
+	height: 75vh;
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.subscribe_main_section {
+	border: 1px dotted aqua;
+	height: 50%;
+	width: 75%;
+
+	background: var(--color-bg-innerTab);
+}
