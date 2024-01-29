@@ -1,19 +1,134 @@
 .About_main_container {
-	border: 1px dotted green;
-	height: 120vh;
+	/* border: 1px dotted green; */
+	height: 100vh;
+	background: var(--color-bg-second);
 }
 
 .aboutus_main_section {
-	border: 1px solid white;
+	/* border: 1px solid white; */
 	height: 100%;
 }
 
-.whatwedo_container {
-	border: 1px dotted yellow;
+.WhatWeDo_container {
+	/* border: 1px dotted yellow; */
 	height: 35%;
+
+	display: flex;
+	padding: 0 8vw;
 }
 
-.whoweare_container {
-	border: 1px dotted blue;
+.WhatWeDo_Intro1 {
+	width: 40%;
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.WhatWeDo_Intro1 p {
+	font-size: 3rem;
+	font-weight: 500;
+	line-height: 5rem;
+	color: aliceblue;
+}
+
+.seperator {
+	width: 2px;
+	border: 1px solid #ffffff3b;
+	margin: 6rem 3rem;
+}
+
+.WhatWeDo_Intro2 {
+	width: 60%;
+	padding: 6rem 0;
+
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: center;
+}
+
+.WhatWeDo_Intro2 h1 {
+	font-size: 1.5rem;
+	text-align: center;
+	font-style: normal;
+	font-weight: 600;
+	margin-bottom: 1.25rem;
+}
+
+.WhatWeDo_Intro2 p {
+	color: #ffffff3b;
+	word-spacing: 4px;
+	letter-spacing: 1px;
+}
+
+.WhoWeAre_container {
+	/* border: 1px dotted blue; */
 	height: 65%;
+	padding: 0 8vw;
+
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.WhoWeAre_Header h1 {
+	font-size: 2.2rem;
+	font-weight: normal;
+	margin-bottom: 3.5rem;
+}
+
+.WhoWrAre_Card_Wrapper {
+	display: flex;
+	gap: 1rem;
+}
+
+.WhoWeAre_cards {
+	border: 1px solid rgba(255, 255, 255, 0.1);
+	border-radius: 1rem;
+
+	padding: 1rem;
+}
+
+.Gift_Icon_Wrapper {
+	margin: 1rem;
+	width: 3.5rem;
+	height: 3.5rem;
+	background: var(--color-fill-white);
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	border-radius: 50%;
+}
+
+.Gift_Icon_Wrapper img {
+	height: 2rem;
+	width: 2rem;
+}
+
+.WhoWeAre_cards h2 {
+	padding: 1.5rem 0;
+	font-size: 1.25rem;
+	font-weight: 500;
+}
+
+.WhoWeAre_cards p {
+	font-size: 0.9rem;
+	color: rgba(255, 255, 255, 0.3);
+	margin-bottom: 1.5rem;
+}
+
+.WhoWeAre_cards button {
+	background: var(--color-primary);
+	border: none;
+	padding: 0.75rem 1.2rem;
+	border-radius: 1.5rem;
+
+	font-size: 0.85rem;
+	font-weight: 700;
+
+	/* font-family: "Inter", sans-serif; */
 }

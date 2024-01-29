@@ -9,13 +9,7 @@ const AboutUs = () => {
 		<>
 			<main className={style.About_main_container}>
 				<section className={style.aboutus_main_section}>
-					<article>
-						<div>AboutUs</div>
-					</article>
-
-					<article className={style.whatwedo_container}>
-						<WhatWeDo />
-					</article>
+					<WhatWeDo />
 
 					<article className={style.whoweare_container}>
 						<WhoWeAre />
