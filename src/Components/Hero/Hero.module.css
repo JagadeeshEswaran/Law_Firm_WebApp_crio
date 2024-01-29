@@ -1,4 +1,121 @@
 .hero_main_container {
-	border: 1px dotted var(--color-primary);
 	height: 81.5vh;
+	width: 100vw;
+	padding: 0 8vw;
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.hero_main_section {
+	/* border: 1px dotted var(--color-primary); */
+	height: 100%;
+	width: 60%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.heroText_1 {
+	font-size: 4rem;
+	font-weight: 500;
+}
+
+.heroText_2 {
+	font-size: 4rem;
+	font-weight: 700;
+}
+
+.heroText_p {
+	margin: 2.5rem 2.5rem 2.5rem 0;
+	line-height: 1.75rem;
+	font-size: 1.1rem;
+	opacity: 0.3;
+	text-align: left;
+}
+
+.hero_form_ele {
+	width: 25rem;
+
+	position: relative;
+
+	/* display: flex;
+	justify-content: center;
+	align-items: center; */
+}
+
+.hero_form {
+	width: 100%;
+}
+
+.hero_form_input {
+	height: 4.5rem;
+	width: 25rem;
+	border-radius: 2.5rem;
+	background: #ffffff1e;
+	padding: 1.5rem 2rem;
+
+	border: none;
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: aliceblue;
+	font-size: large;
+	/* position: relative; */
+}
+
+.hero_form_input::placeholder {
+	color: rgba(250, 240, 240, 0.205);
+	font-size: 1rem;
+	font-family: var(--font_family-1);
+}
+
+.hero_form_btn {
+	border: none;
+
+	background: var(--color-primary);
+	position: absolute;
+	width: 10rem;
+	height: 4rem;
+	border-radius: 2.5rem;
+
+	top: 4px;
+	right: 4px;
+}
+
+.hero_form_btn p {
+	font-size: 1rem;
+	font-weight: 600;
+	text-align: center;
+}
+
+.hero_sub_section {
+	width: 40%;
+	position: relative;
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.Hero_Image_Banner {
+	width: 100%;
+	object-fit: cover;
+}
+
+.Hero_Image_Banner img {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	width: 100%;
+	top: 0;
+}
+
+.Hero_img_Panel {
+	background: var(--color-primary);
+	width: 470px;
+	height: 470px;
 }
