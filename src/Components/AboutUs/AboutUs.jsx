@@ -11,9 +11,8 @@ const AboutUs = () => {
 				<section className={style.aboutus_main_section}>
 					<WhatWeDo />
 
-					<article className={style.whoweare_container}>
-						<WhoWeAre />
-					</article>
+					<WhoWeAre />
+					<article className={style.whoweare_container}></article>
 				</section>
 			</main>
 		</>
